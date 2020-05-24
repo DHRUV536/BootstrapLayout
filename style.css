@@ -15,7 +15,7 @@
     width: 0;
     height: 100vh;
     overflow: hidden;
-    transition: 0.6s ;
+    transition: 0.6s;
 }
 
 .list {
@@ -30,7 +30,8 @@
     color: white;
     transition: 0.4s;
 }
-.close:hover{
+
+.close:hover {
     font-size: 60px;
 }
 
@@ -144,6 +145,7 @@
     background-size: contain;
     overflow: hidden;
     color: rgb(255, 254, 254);
+    background-repeat: no-repeat;
 }
 
 .build-it .content {
@@ -250,4 +252,84 @@
 
 .connect img:hover {
     opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .close {
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+    }
+    .menu li {
+        font-size: 25px;
+        padding: 15px;
+    }
+    .landing-page .header {
+        padding: 10px 15px;
+    }
+    .landing-page .head {
+        margin-top: 15vh;
+        font-size: 30px;
+    }
+    .landing-page .head p {
+        font-size: 20px;
+        padding: 20px;
+    }
+    .landing-page .head button {
+        padding: 15px 50px;
+        font-size: 20px;
+    }
+    .text-box {
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    .technology-used h1 {
+        font-size: 30px;
+        letter-spacing: 10px;
+        padding: 15px;
+    }
+    .technology-used p {
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        padding: 10px;
+    }
+    .technology-used .images img {
+        height: 200px;
+        width: 200px;
+        padding: 15px;
+    }
+    .build-it {
+        background-size: cover;
+        overflow: hidden;
+    }
+    .build-it .content {
+        padding: 25px;
+        font-size: 18px;
+    }
+    .build-it img {
+        flex: 50%;
+        padding: 0px;
+        object-fit: cover;
+    }
+    .fixed-image {
+        object-fit: cover;
+    }
+    .team h1 {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+    .emogies img {
+        height: 100px;
+    }
+    .connect img {
+        height: 40px;
+        
+    }
+    .connect .header {
+       
+        font-size: 20px;
+        
+    }
 }
