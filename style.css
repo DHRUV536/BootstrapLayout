@@ -1,0 +1,208 @@
+* {
+    /* border: black solid 1px; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.landing-page {
+    height: 100vh;
+    width: 100%;
+    background-image: url('img/background.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.landing-page .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #0000007c;
+}
+
+.landing-page .head {
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 40px;
+}
+
+.landing-page .head h2 {
+    letter-spacing: 3px;
+    color: white;
+}
+
+.landing-page .head p {
+    font-size: 25px;
+    letter-spacing: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.landing-page .head button {
+    padding: 20px 60px;
+    font-size: 25px;
+    background-color: #d2488fd7;
+    color: rgb(255, 249, 249);
+    transition: .5s;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+}
+
+.landing-page .head button:hover {
+    background-color: #000000b6;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.text-box {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #d34f92;
+    color: white;
+}
+
+.technology-used h1 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    padding: 20px;
+}
+
+.technology-used p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.technology-used .images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.technology-used .images img {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+
+.build-it {
+    /* border: solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    background: url('img/background2.png');
+    background-size: contain;
+    overflow: hidden;
+    color: rgb(255, 254, 254);
+}
+
+.build-it .content {
+    padding: 30px;
+    font-size: 20px;
+    flex: 50%;
+    /* border: solid black; */
+}
+
+.build-it img {
+    flex: 50%;
+    padding: 50px;
+}
+
+.build-it .content h1 {
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.build-it .content p {
+    padding: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.fixed-image {
+    width: 100%;
+    height: 50vh;
+    background: url('img/mac.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.team {
+    background-image: url('img/team.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.team .persons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team .persons .profile-box {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 50px black;
+}
+
+.team h1 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 20px;
+}
+
+.emogies {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.emogies img {
+    height: 200px;
+}
+.connect{
+    height: 50vh;
+    border: solid black;
+    background:url('img/hands.png');
+    background-position: center;
+    background-size: cover;
+   
+}
+.connect .images{
+ display: flex;   
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ align-items: center;
+ margin-top: 80px;
+}
+.connect img {
+    height: 70px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.connect .header{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 1cm;
+    color: white;
+} 
+.connect img:hover {
+    
+    opacity: 1;
+}
