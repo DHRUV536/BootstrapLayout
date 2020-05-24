@@ -9,11 +9,20 @@
 </head>
 
 <body>
+    <ul class="menu" id="menu">
+        <div class="list">
+        <a class="close" onclick="closeNav()">&#x2717;</a>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </div>
+    </ul>
     <div class="landing-page">
         <div class="header">
             <img src="img/w3newbie.png" alt="">
 
-            <img src="img/hamburger.png" height="50px" width="50px" alt="">
+            <img src="img/hamburger.png" onclick="openNav()" height="50px" width="50px" alt="">
 
         </div>
         <div class="head">
@@ -100,5 +109,13 @@
         </div>
     </div>
 </body>
+<script>
+    function openNav() {
+        document.getElementById('menu').style.width="100vw";
+    }
+    function closeNav(){
+        document.getElementById('menu').style.width="0vw";
+    }
+</script>
 
 </html>
